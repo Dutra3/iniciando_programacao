@@ -1,3 +1,8 @@
+/* Apenas um comentario para deixar salvo.
+Alem de testar a alteração dentro do VS Code */
+
+
+
 function acaoBotao() {
     var sairLoop, valor1, valor2
     do{
