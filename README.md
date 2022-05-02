@@ -1,3 +1,3 @@
 # iniciando_programacao
 
-### Inicio de um hobby
+### Inicio de Estudo
