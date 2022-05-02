@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 10px solid blue;
+    padding: 10px; /*Tbm aumenta o tamanho do meu container.*/
+    margin: 10px;
+}
+
+.square2 {
+    height: 120px; /*O tamanho nao é mais o mesmo, por causa do padding*/
+    width: 120px; /*O tamanho nao é mais o mesmo, por causa do padding*/
+    background-color: yellow;
+    margin: 10px;
+    
+}
+
+.square3 {
+    box-sizing: border-box; /*Agora ele vai respeitar o meu 100px, logo eu perco conteudo,
+    Quando eu coloco padding and border, pois ele cria pra dentro da minha caixa, não para fora!*/
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 10px solid blue;
+    padding: 10px; /*Tbm aumenta o tamanho do meu container.*/
+    margin: 10px;
+}
+
+.container {
+    background-color: red;
+    padding: 5px;
+    border: 3px solid blue;
+    margin: 10px;
+}
+
+.content {
+    background-color: grey;
+    border: 3px solid green;
+    padding: 5px;
+}
+
+/*Posso colocar até mesmo imagem no lugar do circulo, dos numeros, posso colocar a img que eu quiser!.*/
+ul {
+    list-style-type: circle; /*É oq aparece antes do que ta escrito, pode ser varios tipos, pode ser none tbm.*/
+    list-style-position: inside; /*Por padrão é outsider*/
+}
+
+ol {
+    list-style-type: square;
+}
+
+li {
+    border: 1px solid;
+}
+
+a {
+    text-decoration: none;
+    cursor: crosshair; /*O tipo de cursor que aparece quando deixa o mouse em cima do link, por padrão é o pointer.*/
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+/*a:visited { Não muito utilizado, não fica legal em alguns casos.
+    color: black;
+}*/
+
+a:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid black;
+}
+
+a:active { /*A configuração que ele vai ter enquanto esta sendo clicado(ativado)*/
+    background-color: yellow;
+    color: aquamarine;
+    border: 2px solid goldenrod;
+}

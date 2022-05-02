@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+
+.card {
+    background: url(/DesafioCss/images/backgorund.png) no-repeat;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10%;
+    background-size: cover; /*Ele faz com que a minha imagem mesmo sendo MAIOR que o tamanho da caixa que eu definir, cabe ali dentro.
+    Serve tbm, quando eu faço uma imagem MENOR que o tamanho que eu tenho de caixa caber la dentro*/
+}
+
+.card > p > a { /*Proxima vez fazer essa parte em forma de lista*/
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
